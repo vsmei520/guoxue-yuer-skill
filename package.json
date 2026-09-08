@@ -1,0 +1,22 @@
+{
+  "name": "zengmei-yuer-guofeng-plugin",
+  "version": "1.0.0",
+  "description": "曾美团队·育儿国风穿越插件 - MCP代理",
+  "main": "mcp-proxy.js",
+  "scripts": {
+    "start": "node mcp-proxy.js"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "codex",
+    "zengmei",
+    "guoxue"
+  ],
+  "author": "曾美团队",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "private": true
+}

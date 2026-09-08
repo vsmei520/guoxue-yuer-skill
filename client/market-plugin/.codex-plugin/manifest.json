@@ -1,0 +1,12 @@
+{
+  "manifestVersion": "1.0",
+  "id": "zengmei-yuer-guofeng-chuanyue",
+  "name": "曾美团队·育儿国风穿越",
+  "version": "1.1.0",
+  "description": "古今对话短剧创作助手",
+  "publisher": "曾美团队",
+  "license": "Proprietary",
+  "main": "../mcp-proxy.js",
+  "activationEvents": ["*"],
+  "contributes": {}
+}

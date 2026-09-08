@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+package-lock.json
+
+# 环境变量（包含密钥）
+.env
+.env.local
+.env.*.local
+
+# 日志
+logs/
+*.log
+npm-debug.log*
+
+# 核心 Skill 文件（不公开）
+server/skills/*.md
+private/
+01B_规则本体_10s版v3.9.md
+02_赛道范例库_v1.7.md
+SKILL.md
+03_使用说明_人类阅读.md
+
+# 发布包
+release/
+
+# 数据库和临时文件
+*.db
+*.sqlite
+*.sql
+server/data/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 旧的外部目录（不推送）
+../guoxue-server/
+../zmt-yuer-guofeng-public-plugins/
+
+# 部署相关
+宝塔部署指南.md
+打包上传.ps1

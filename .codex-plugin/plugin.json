@@ -1,0 +1,20 @@
+{
+  "name": "zengmei-yuer-guofeng",
+  "version": "1.0.0",
+  "description": "曾美团队·育儿国风穿越 - 古今对话短剧远程授权插件",
+  "author": {
+    "name": "曾美团队"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "曾美团队-育儿国风穿越",
+    "shortDescription": "古今对话短剧·AI视频生产系统",
+    "longDescription": "曾美团队·育儿国风穿越通过远程服务完成规则执行，本地插件不包含核心 Skill 明文。使用手机号+授权码激活后，一机一码绑定。输入选题+构思，产出完整生产物：钩子分析、结构设计、四列脚本、场景图提示词、六列分镜表、Seedance分段提示词、封面提示词、发布标题标签等。",
+    "developerName": "曾美团队",
+    "category": "Productivity",
+    "capabilities": ["Analyze", "Write", "Interactive"],
+    "defaultPrompt": "启动曾美团队·育儿国风穿越，帮我生成一个古今对话短剧。"
+  },
+  "homepage": "https://guoxue.073955.com"
+}
