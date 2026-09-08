@@ -1,8 +1,15 @@
 {
   "mcpServers": {
-    "zengmei-guoxue": {
-      "command": "node",
-      "args": ["./mcp-proxy.js"]
+    "guoxue-chuanyue": {
+      "type": "http",
+      "url": "https://guoxue.073955.com/mcp",
+      "auth": "oauth",
+      "enabled_tools": [
+        "get_guoxue_chuanyue_main_workflow",
+        "get_guoxue_chuanyue_examples_workflow"
+      ],
+      "startup_timeout_sec": 20,
+      "tool_timeout_sec": 120
     }
   }
 }

@@ -1,41 +1,23 @@
 {
-  "name": "guoxue-server",
-  "version": "1.0.0",
-  "description": "曾美团队·育儿国风穿越 - 服务端",
-  "main": "server.js",
+  "name": "guoxue-skill-service",
+  "version": "1.1.0",
+  "description": "曾美团队·育儿国风穿越 - 授权和远程 MCP 服务",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
-    "hash-password": "node scripts/create-password-hash.js",
-    "pm2:start": "pm2 start ecosystem.config.js",
-    "pm2:stop": "pm2 stop guoxue-server",
-    "pm2:restart": "pm2 restart guoxue-server",
-    "pm2:logs": "pm2 logs guoxue-server"
+    "start": "node src/server.js",
+    "test": "node --test"
   },
-  "keywords": [
-    "mcp",
-    "guoxue",
-    "zengmei"
-  ],
+  "keywords": ["mcp", "skill", "zengmei", "guoxue"],
   "author": "曾美团队",
   "license": "UNLICENSED",
+  "type": "commonjs",
   "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "pg": "^8.11.3",
-    "redis": "^4.6.10",
-    "jsonwebtoken": "^9.0.2",
-    "bcrypt": "^5.1.1",
-    "axios": "^1.6.2",
-    "helmet": "^7.1.0",
-    "express-rate-limit": "^7.1.5",
-    "uuid": "^9.0.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
+    "@alicloud/dysmsapi20170525": "^4.6.0",
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=22.0.0"
   }
 }

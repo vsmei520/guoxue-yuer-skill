@@ -12,22 +12,26 @@ logs/
 *.log
 npm-debug.log*
 
-# 核心 Skill 文件（不公开）
-server/skills/*.md
-private/
-01B_规则本体_10s版v3.9.md
-02_赛道范例库_v1.7.md
+# 核心 Workflow 文件（不公开）
+server/workflows/*.md
+workflows/*.md
+01B_*.md
+02_*.md
+03_*.md
 SKILL.md
-03_使用说明_人类阅读.md
+*规则*.md
+*赛道*.md
+*范例*.md
 
-# 发布包
-release/
-
-# 数据库和临时文件
+# 数据库
 *.db
 *.sqlite
 *.sql
 server/data/
+data/
+
+# 发布包
+release/
 
 # 操作系统
 .DS_Store
@@ -39,10 +43,21 @@ Thumbs.db
 *.swp
 *.swo
 
-# 旧的外部目录（不推送）
-../guoxue-server/
-../zmt-yuer-guofeng-public-plugins/
+# 旧目录结构（已废弃）
+server/routes/
+server/services/
+server/config/
+server/utils/
+server/skills/
+server/scripts/
+private/
 
-# 部署相关
-宝塔部署指南.md
-打包上传.ps1
+# 内部文档（不公开）
+公开发布操作指南.md
+发布检查清单.md
+服务端实现指南.md
+架构设计_*.md
+部署和使用指南.md
+
+# 临时文件
+tmp-*

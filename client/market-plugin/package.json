@@ -1,16 +1,8 @@
 {
   "name": "zengmei-yuer-guofeng-client",
-  "version": "1.1.0",
-  "description": "曾美团队·育儿国风穿越客户端",
-  "main": "mcp-proxy.js",
-  "scripts": {
-    "start": "node mcp-proxy.js"
-  },
+  "version": "1.2.0",
+  "description": "曾美团队·育儿国风穿越远程插件",
   "keywords": ["mcp", "claude", "codex", "zengmei", "guoxue"],
   "author": "曾美团队",
-  "license": "SEE LICENSE IN LICENSE",
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "private": false
+  "license": "SEE LICENSE IN LICENSE"
 }

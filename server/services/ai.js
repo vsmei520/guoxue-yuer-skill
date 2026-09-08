@@ -11,8 +11,8 @@ const skillPath = path.isAbsolute(configuredSkillPath)
 async function loadSkillFiles() {
   try {
     const [rules, examples] = await Promise.all([
-      fs.readFile(path.join(skillPath, "01B_规则本体_10s版v3.9.md"), "utf8"),
-      fs.readFile(path.join(skillPath, "02_赛道范例库_v1.7.md"), "utf8"),
+      fs.readFile(path.join(skillPath, "rules.md"), "utf8"),
+      fs.readFile(path.join(skillPath, "examples.md"), "utf8"),
     ]);
     return { rules, examples };
   } catch (error) {
